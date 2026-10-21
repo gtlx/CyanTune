@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CyanTune 注入作用域：状态栏、桌面、（口袋模式预留）系统框架 -->
+    <string-array name="xposed_scope">
+        <item>com.android.systemui</item>
+        <item>com.android.launcher3</item>
+        <item>com.google.android.apps.nexuslauncher</item>
+        <item>org.lineageos.trebuchet</item>
+    </string-array>
+</resources>

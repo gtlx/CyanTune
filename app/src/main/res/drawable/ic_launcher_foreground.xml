@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  CyanTune 青调 —— 自适应图标前景
+  像素风均衡器：五根硬边像素柱（中间最高最亮）+ 底部基线。
+  全部落在 108dp 画布中央 66dp 安全区内。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 柱 1（矮，浅青） -->
+    <path android:fillColor="#FFB2F5EA"
+        android:pathData="M27,56 h7 v20 h-7 z" />
+    <!-- 柱 2（中高，浅青） -->
+    <path android:fillColor="#FFB2F5EA"
+        android:pathData="M39,48 h7 v28 h-7 z" />
+    <!-- 柱 3（最高，纯白亮柱，视觉中心） -->
+    <path android:fillColor="#FFF0FFFC"
+        android:pathData="M51,38 h7 v38 h-7 z" />
+    <!-- 柱 4（中，浅青） -->
+    <path android:fillColor="#FFB2F5EA"
+        android:pathData="M63,52 h7 v24 h-7 z" />
+    <!-- 柱 5（中高，浅青） -->
+    <path android:fillColor="#FFB2F5EA"
+        android:pathData="M75,46 h7 v30 h-7 z" />
+    <!-- 底部基线 -->
+    <path android:fillColor="#FFCCFBF1"
+        android:pathData="M25,78 h59 v2 h-59 z" />
+</vector>

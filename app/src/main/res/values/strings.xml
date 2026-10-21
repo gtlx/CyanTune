@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">青调 CyanTune</string>
+    <string name="app_description">LineageOS 系统/桌面调教：状态栏漂移防烧屏、桌面 180° 旋转、口袋防误触等</string>
+
+    <!-- 设置页 -->
+    <string name="ui_subtitle">v0.1.0 · 插件化系统调教</string>
+    <string name="section_global">总开关</string>
+    <string name="global_enabled_title">启用青调</string>
+    <string name="global_enabled_desc">关闭后所有功能均不生效</string>
+
+    <string name="section_statusbar">状态栏漂移</string>
+    <string name="drift_enabled_title">启用水平漂移（防烧屏）</string>
+    <string name="drift_enabled_desc">让状态栏周期性左右轻微移动</string>
+    <string name="drift_px">漂移幅度：%1$d px</string>
+    <string name="drift_interval">周期间隔：%1$d 秒</string>
+
+    <string name="section_launcher">桌面 180° 旋转</string>
+    <string name="rotation180_enabled_title">允许桌面 180° 反向竖屏</string>
+    <string name="rotation180_enabled_desc">手机倒过来也能正常使用桌面（改方向后需重启桌面）</string>
+
+    <string name="section_pocket">口袋防误触</string>
+    <string name="pocket_enabled_title">启用口袋防误触</string>
+    <string name="pocket_enabled_desc">锁屏亮屏时，距离传感器检测到在口袋内即盖住锁屏，防止误触</string>
+    <string name="pocket_light_gate_title">叠加暗光判定</string>
+    <string name="pocket_light_gate_desc">需同时满足近距与环境光很暗（&lt;5 lux）才判定在口袋，降低误判</string>
+    <string name="pocket_hint">来电响铃时自动放行，不会挡住滑动接听；保存后即时生效无需重启。</string>
+
+    <string name="section_restart">重启系统进程（应用改动）</string>
+    <string name="restart_warn">改 hook 类功能后可重启对应进程生效：状态栏会短暂闪一下或回到桌面，不丢数据。</string>
+    <string name="btn_restart_systemui">重启状态栏 SystemUI</string>
+    <string name="btn_restart_launcher">重启桌面 Launcher</string>
+    <string name="restarting_systemui">正在重启…</string>
+    <string name="restarting_launcher">正在重启…</string>
+    <string name="restart_ok">已执行重启命令</string>
+    <string name="restart_failed">重启失败：可能未授予 root 权限</string>
+
+    <string name="btn_save">保存配置</string>
+    <string name="saving">正在保存…</string>
+    <string name="save_ok">已保存并实时生效（部分改动需重启对应进程）</string>
+    <string name="save_failed">保存失败：root 写入未成功，可能未授予 root 权限</string>
+    <string name="root_status_ok">root 配置通道可用</string>
+    <string name="root_status_no">root 不可用：保存将失败（请在 KernelSU 中授权）</string>
+    <string name="footer_hint">保存后实时生效；旋转方向等改动可能需要重启 SystemUI / 桌面进程。</string>
+</resources>
